@@ -1,4 +1,4 @@
 # TP-FINAL-CURSO
-Trabajo final de curso
+Trabajo final de curso - CV
 
-Nombre: Gonzalo Nahuel Gallego Romero
+Hecho por, Gonzalo Nahuel Gallego Romero.
