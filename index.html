@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- LUEGO BORRAR -->
+    <!-- <meta http-equiv="refresh" content="1" />  -->
+    <!-- LUEGO BORRAR -->
+    <link rel="stylesheet" href="css/styles.css">
+    <title>CV - TP</title>
+</head>
+<body>
+    <div class="containerE hidden">
+        <div class="containerEdit">
+            
+                <h3>Informacion adicional</h3>
+                <p>Quisque nec nunc non libero gravida blandit vel lobortis dolor. Praesent neque urna, blandit vel suscipit non, suscipit et lectus. Praesent venenatis placerat consequat. Nulla venenatis metus nec nisl maximus tempor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis aliquam sapien non odio elementum, in auctor lectus rhoncus. Vivamus at sagittis nisl. Pellentesque leo nisi, gravida sed urna ut, consectetur iaculis turpis. Nam quis tortor id mauris dignissim viverra. Fusce sagittis elementum tortor ut hendrerit.</p>
+                <div>
+                    <button onclick="cambiar();">Cerrar</button>
+                </div>
+        </div>
+    </div>
+
+    
+
+    <div class="containerPrincipal">
+        
+        <div class="containerInformacion">
+            <div class="informacion">
+
+                <button class="editInfo">?</button>
+
+                <div class="moduloCon">
+
+                    <div class="modInfo">
+                        <h3>Informacion Personal</h3>
+                    </div>
+                    <div class="modTextoInfo">
+                        <p>johnni.hudson@example.com</p>
+                        <p>(664) 611-5764</p>
+                        <p>5334 Dogwood Ave</p>
+                    </div>
+
+                </div>
+                <div class="moduloCon">
+
+                    <div class="modInfo">
+                        <h3>Estudios</h3>                    
+                    </div>
+                    <div class="modTextoInfo">
+                        <p><bold>Licenciado en informatica</bold></p>
+                        <p>UCM</p>
+                        <p>sept. 2009 - sep. 2013</p>
+                    </div>
+
+                </div>        
+                <div class="moduloCon">
+
+                    <div class="modInfo">
+                        <h3>Habilidades</h3>                  
+                    </div>
+                    <div class="modTextoInfo">
+                        <p>Programamacion</p><hr>
+                        <p>Analisis</p><hr>
+                        <p>Automotivacion</p><hr>
+                        <p>Adaptabilidad</p><hr>
+                        <p>Resolucion de problemas</p><hr>  
+                    </div>
+                    
+                </div>      
+                
+            </div>
+            
+            <div class="acordeon ocultar" id="acordeon">
+                <div class="bloque" id="funciona">
+                    <h2 class="h2">Extra</h2>
+                    <hr>
+                    <div class="contenido">Lorem ipsum dolor sit amet. Duis pulvinar, odio auctor posuere porttitor, nisi nunc eleifend ipsum, quis rutrum ligula erat eu turpis. Sed tincidunt consequat ligula, eget luctus magna porttitor vitae. Suspendisse ipsum neque, congue vel efficitur vel, aliquam sed arcu.</div>
+                </div>                
+            </div>
+            <div class="etiqueta" id="etiqueta"></div>
+
+        </div>
+
+
+
+
+
+        <div class="contenido">
+            <div class="containerTitulo">
+                <div class="moduloConTitulo">
+                    <h1>Johnni Hudson</h1>
+                    <p>Ingeniero en sowftware</p>
+                </div>
+                <div class="avatar">
+                    <img src="assets/perfil.jpg" alt="">
+                </div>
+            </div>
+            <div class="moduloCon">
+                
+                <div class="modRef">
+                    <h3>Resumen</h3>
+                    <hr>
+                </div>
+                <div class="modTexto">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tempus lorem vitae massa ornare, et pellentesque risus dapibus. Sed cursus risus a mauris tristique, fermentum imperdiet ligula egestas. Cras pharetra, mauris blandit ultrices aliquet, metus nunc aliquet massa, at bibendum mauris ex vel neque. Suspendisse sed ex quis felis luctus interdum. Duis congue nulla in enim semper lobortis. Proin mollis odio in odio lobortis, in fermentum quam ultricies. Morbi vulputate ornare tortor et pharetra.</p>
+                </div>
+
+            </div>
+            <div class="moduloCon">
+                <div class="modRef">
+                    <h3>Experiencia laboral</h3>
+                    <hr>
+                </div>
+                <div class="modTexto">
+                    <p>Nunc erat elit, tristique a posuere et, ultricies eget arcu. Ut ornare mauris elit, vel tincidunt sem lacinia ac. Quisque euismod mauris purus, consequat elementum nisl placerat vel. Vestibulum sed eros non sapien pharetra posuere. Quisque facilisis neque at placerat ullamcorper. Aenean nec ornare est, vel porta nisl. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent id eros nibh. Morbi at congue nisi. Donec egestas neque elit, id ultrices diam fermentum in. Sed erat velit, fermentum quis blandit ut, tincidunt nec quam.</p>                
+                </div>
+
+            </div>
+            <div class="moduloCon">
+                <div class="modRef">
+                    <h3>Referencias</h3>
+                    <hr>
+                </div>
+                <div class="modTexto">
+                    <p>Maecenas sit amet sem consequat, tincidunt quam id, ultricies odio. Mauris rutrum ligula eros, ac malesuada nunc sollicitudin in. Suspendisse consectetur scelerisque hendrerit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi imperdiet, augue in blandit tristique, orci ligula gravida mauris, ac aliquet massa eros sit amet libero. Quisque tincidunt sem sit amet mollis molestie. Maecenas a nibh fringilla, mollis odio id, sollicitudin neque.</p>                
+                </div>
+            </div>
+            <div class="moduloCon">
+                <div class="modRef">
+                    <h3>Otros</h3>
+                    <hr>
+                </div>
+                <div class="modTexto">
+                    <p>tiam sed risus libero. Nullam nec vestibulum purus. Ut vitae dui eget lacus lobortis maximus non sed leo. Aliquam ultricies leo at ullamcorper hendrerit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur pretium ligula quis leo cursus faucibus. Praesent sodales et neque vitae iaculis.</p>                
+                </div>
+            </div>
+        </div>    
+    </div>
+
+   
+
+
+
+
+
+    <script src="js/scripts.js"></script>
+</body>
+</html>

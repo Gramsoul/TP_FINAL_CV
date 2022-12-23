@@ -1,0 +1,238 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: rgb(46, 46, 46);
+    display: flex;
+    justify-content: center;
+}
+
+.containerPrincipal {
+    width: 60%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+}
+
+.containerTitulo {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.containerInformacion{
+    width: 30%;
+    height: fit-content;
+}
+
+.informacion {
+    background-color: black;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contenido {
+    background-color: white;
+    width: 70%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+/* MODULOS */
+.moduloCon {
+    width: 80%;
+    height: auto;
+    margin: 0px 0 30px 0;
+}
+
+.moduloConTitulo {
+    background-color: rgb(255, 200, 129);
+    width: 70%;
+    height: 100px;
+    margin: 60px 0 20px 0;
+    align-self: flex-start;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+/* --------------- */
+
+/* FOTO */
+.avatar {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.avatar img{
+    width: 80%;
+    border-radius: 50%;
+    border: 3px solid black;
+    margin-top: 20px;
+}
+
+/* --------------- */
+
+/* CONTENEDOR OCULTO */
+.containerE {
+    width: 30%;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 50px 0 0;
+}
+.containerEdit {
+    background-color: black;
+    width: 80%;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 0 0 0;
+    border-radius: 10px;
+}
+.containerEdit h3 {
+    color: white;
+}
+.containerEdit p{
+    color:white;
+    text-align: center;
+    padding: 0 40px 0 40px;
+}
+.containerEdit button {
+    width: 120px;
+    height: 30px;
+    margin:  20px 0 20px 0;
+    border-radius: 15px;
+}
+.hidden{
+    display: none;
+    
+}
+/* --------------- */
+
+/* ACORDEON */
+.acordeon{
+    display: flex;
+    width: 98%;
+    flex-direction: column;
+    height: fit-content;
+    transition: margin .5s ease;
+}
+
+.ocultar{
+    transition: height .5 ease;
+    height: 0;
+    overflow: hidden;
+}
+.etiqueta{
+    width: 70px;
+    height: 30px;
+    background-color: rgb(255, 200, 129);
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    
+}
+.etiqueta:hover{
+    background-color: rgb(255, 229, 195);
+}
+.acordeon .bloque{
+    background-color: white;
+    align-content: center;
+    border-bottom-right-radius: 25px;
+    height: fit-content;
+    transition:  all .5 ease;
+}
+
+.acordeon .bloque hr{
+    margin: 5px auto 20px auto;
+    border: 2px solid black;
+    width: 80%;
+
+}
+.acordeon .bloque .h2{
+    width: 100%;
+    margin-bottom: 0;
+    text-align: center;
+}
+.acordeon .bloque .contenido{
+    width: 85%;
+    margin: 0 auto;
+}
+
+
+
+/* --------------- */
+
+/* TEXTOS DE CONTENIDO */
+.moduloConTitulo h1{
+    vertical-align: middle;
+    margin-left: 20px;
+}
+.moduloConTitulo p{
+    vertical-align: middle;
+    margin-left: 20px;
+    margin-top: -20px;
+}
+.moduloCon h3 {
+    margin: 0 0 10px 0;
+}
+.modTexto p {
+    margin: 15px 0 0 0;
+    
+}
+.moduloCon hr {
+    border: 1px solid black;
+    margin-top: -10px;
+}
+
+/* --------------- */
+
+/* TEXTOS DE INFORMACION */
+
+.modInfo {
+    color: white;
+    text-align: center;
+}
+.modTextoInfo hr {
+    border: 2px solid white;
+    width: 90%;
+}
+.modTextoInfo {
+    color: white;
+    margin-top: 25px;
+}
+.modTextoInfo p{
+ text-align: start;
+ font-size: 12pt;
+ margin-left: 15px;
+ font-style: oblique;
+}
+
+/* --------------- */
+
+/* BOTONES */
+button {
+    background-color: rgb(255, 200, 129); 
+    border: none; 
+    font-weight: bolder;
+}
+button:hover {
+    color: white;
+}
+.informacion button {
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    align-self: flex-start;
+    margin: 10px 0 0 10px;
+}
